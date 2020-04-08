@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+    
+    <div class="container mt-5">
+     
+        <h1 id="text">ง่วงก่อน</h1>
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <div class="form-group">
+                    <label >รหัสไปรษณีย์ *</label>
+                         <input type="number" class="form-control"  placeholder="รหัสไปรษณีย์" id="zipCode"  maxlength="5" >
+                     </div>
+
+             </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">ตำบล/เเขวง *</label>
+                    <select class="form-control" id="exampleFormControlSelect1" id="subDistrict">
+                        <option>เลือก ตำบล/เเขวง</option>
+               
+                    </select>
+                  </div>
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="form-group">
+                    <label >อำเภอ/เขต *</label>
+                         <input type="text" class="form-control"  placeholder="อำเภอ/เขต "  id="district" readonly>
+                     </div>
+
+             </div>
+
+            <div class="col-md-6">
+                <label >จังหวัด *</label>
+                <input type="text" class="form-control"  placeholder="จังหวัด" id="province" readonly>
+                  
+            </div>
+                    
+
+        </div>
+    </div>
+
+
+ 
+
+
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+
+
+<script src="javascript.js"></script>
+
+</html>
